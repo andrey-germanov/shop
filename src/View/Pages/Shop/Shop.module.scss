@@ -1,0 +1,16 @@
+.shopPage{
+    .categories{
+        display: flex;
+        flex-wrap: wrap;
+        .category{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: gray;
+            width: 50%;
+            height: 300px;
+            outline: none;
+            border: 0;
+        }
+    }
+}
